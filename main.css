@@ -1,0 +1,25 @@
+.bio__interests ul{
+	list-style-type: none;
+    display: flex; /* Display the child items in a Flex layout */
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+}
+
+.bio__interests .interest {
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    flex: 1 1 16%;
+}
+
+.bio__interests h3 {
+	color: crimson;
+}
+.bio__name h1 {
+    font-style: oblique;
+}
+.bio__address h3{
+    font-style: oblique;
+}
+body {
+    background-color: lightyellow;
+}
